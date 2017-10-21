@@ -5,3 +5,50 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: arial, sans-serif;
+	background-color: #fff;
+	/*clear: both;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: auto;
+}
+
+.cabecera {
+	/*max-width: 1000px;*/
+	padding-top: 10px;
+	padding-bottom: 35px;
+	
+	overflow: auto;
+	margin: auto;
+
+	background-color: yellow;
+}
+
+.inicio img{
+	float: left;
+	background-color: lightgreen;
+}
+
+.botonera {
+	float: right;
+	background-color: salmon;
+}
+
+.botonera ul {
+	list-style-type: none;
+}
+
+.botonera a {
+	float: left;
+
+	font-family: 'Pacifico', sans-serif;
+	font-size: 22px;
+	display: block;
+
+}
+
+.botonera a:hover {
+
+}
