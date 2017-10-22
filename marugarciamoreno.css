@@ -35,16 +35,17 @@ body {
 	float: left;
 	list-style-type: none;
 	padding-left: 25px;
+	padding-right: 430px;
 }
 
 .boton {
 	list-style-type: none;
 	overflow: auto;
-	margin-right: 20px;
+	margin-left: 70px;
 }
 
 .boton a {
-	float: right;
+	float: left;
 
 	font-family: 'Pacifico', sans-serif;
 	font-size: 22px;
@@ -71,7 +72,7 @@ body {
 /*-------------------- PROYECTOS --------------------*/
 
 .proyectos {
-	margin: 20px 5px;
+	margin: 20px 20px;
 	clear: both;
 	/*background-color: blue;*/
 }
@@ -213,10 +214,13 @@ body {
 /*------------------- PIE ------------------*/
 
 .footer {
+	overflow: auto;
 	clear: both;
 	margin-top: 20px;
 	margin-bottom: 25px;
-	border-bottom: 1px solid #343938;
+	margin-left: 20px;
+	margin-right: 20px;
+	/*border-bottom: 1px solid #343938;*/
 }
 
 .copy {
@@ -238,6 +242,25 @@ body {
 	background-color: salmon;
 }
 
+.pagcontact h2 {
+	margin-top: 150px;
+	margin-left: 40px;
+	font-family: 'Abril Fatface', sans-serif;
+	font-size: 35px;
+}
+
 .contact {
+	overflow: auto;
+	clear: both;
 	border-style: dashed;
+	margin-top: 150px;
+	width: 500px;
+	margin-left: 40px;
+	padding-top: 10px;
+}
+
+.pagcontact .footer {
+	margin-top: 220px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
