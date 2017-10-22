@@ -9,8 +9,8 @@
 body {
 	font-family: 'Merriweather', sans-serif;
 	/*background-color: #fff;*/
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 	margin: auto;
 }
 
@@ -34,7 +34,7 @@ body {
 .logo {
 	float: left;
 	list-style-type: none;
-	margin-left: 10px;
+	padding-left: 25px;
 }
 
 .boton {
@@ -229,4 +229,15 @@ body {
 .copy span {
 	font-family: 'Pacifico', sans-serif;
 	color: red;
+}
+
+
+/*--------------Contacto------------*/
+
+.pagcontact {
+	background-color: salmon;
+}
+
+.contact {
+	border-style: dashed;
 }
