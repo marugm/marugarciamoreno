@@ -7,48 +7,213 @@
 }
 
 body {
-	font-family: arial, sans-serif;
-	background-color: #fff;
-	/*clear: both;*/
+	font-family: 'Merriweather', sans-serif;
+	/*background-color: #fff;*/
 	padding-left: 20px;
 	padding-right: 20px;
 	margin: auto;
 }
 
-.cabecera {
-	/*max-width: 1000px;*/
-	padding-top: 10px;
-	padding-bottom: 35px;
-	
-	overflow: auto;
-	margin: auto;
-
-	background-color: yellow;
-}
-
-.inicio img{
-	float: left;
-	background-color: lightgreen;
-}
+/*-------------- CABECERA --------------*/
 
 .botonera {
-	float: right;
-	background-color: salmon;
+	padding-top: 10px;
+	width: 100%;
+	overflow: auto;
+	/*margin: auto;*/
+	height: 110px;
+
+	background-color: white;
+	position: fixed;
+	top: 0px;
+
+	z-index: 1;
 }
 
-.botonera ul {
-	list-style-type: none;
-}
 
-.botonera a {
+.logo {
 	float: left;
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+.boton {
+	list-style-type: none;
+	overflow: auto;
+	margin-right: 20px;
+}
+
+.boton a {
+	float: right;
 
 	font-family: 'Pacifico', sans-serif;
 	font-size: 22px;
 	display: block;
+	text-decoration: none;
+
+	margin: 20px 10px;
+	padding: 5px 15px;
+
+	color: red;
+
+	/*background-color: salmon;*/
 
 }
 
-.botonera a:hover {
+.botonera .boton a:hover {
+	color: white;
+	background-color: #66ccb8;
+	/*en verdad que el recuadro quede cuando esta seleccionada esa pagina
+	que el hover sea cambiar de color*/
+}
 
+
+/*-------------------- PROYECTOS --------------------*/
+
+.proyectos {
+	margin: 20px 5px;
+	clear: both;
+	/*background-color: blue;*/
+}
+
+.parte1 {
+	/*background-color: purple;*/
+	margin-bottom: 25px;
+	overflow: auto;
+	margin-top: 110px;
+}
+
+.uno img{
+	float: left;
+	width: 70%;
+	height: 585px;
+	padding-right: 25px;
+
+	bottom: 0;
+	opacity: 1;
+
+	position: relative; /* relativo para que controle al hijo absoluto*/
+	overflow: hidden;
+}
+
+.uno .hijo {
+	/*display: none;*/
+
+	background-color: black;
+	height: 585px;
+	width: 65.8%;
+
+	position: absolute;
+	
+	transition: ease 0.6s;
+	opacity: 0;
+}
+
+.hijo a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	line-height: 585px;
+}
+
+.hijo p{
+	/*line-height: 270px;*/
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
+	border-bottom: 1px solid white;
+	background-color: pink;
+}
+
+.hijo h2 {
+	/*line-height: 10px;*/
+	font-family: 'Lobster', sans-serif;
+	font-size: 44px;
+	text-decoration: none;
+	background-color: blue;
+}
+
+.uno:hover .hijo{
+	opacity: 0.7;
+}
+
+.dos img{
+	float: right;
+	width: 30%;
+	height: 50%;
+	padding-bottom: 25px;
+}
+
+.tres img{
+	float: right;
+	width: 30%;
+	height: 50%;
+}
+
+.parte2 {
+	clear: both;
+	overflow: auto;
+	margin-bottom: 25px;
+	/*background-color: yellow;*/
+}
+
+.cuatro img{
+	float: left;
+	width: 30%;
+	height: 50%;
+	padding-bottom: 25px;
+}
+
+.cinco img{
+	float: right;
+	width: 70%;
+	height: 585px;
+	padding-left: 25px;
+}
+
+.seis img{
+	float: right;
+	width: 30%;
+	height: 50%;
+}
+
+.parte3 {
+	clear: both;
+	overflow: auto;
+	margin-bottom: 25px;
+}
+
+.siete img{
+	float: left;
+	width: 70%;
+	height: 585px;
+	padding-right: 25px;
+}
+
+.ocho img{
+	float: right;
+	width: 30%;
+	height: 50%;
+	padding-bottom: 25px;
+}
+
+/*------------------- PIE ------------------*/
+
+.footer {
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #343938;
+}
+
+.copy {
+	display: block;
+	text-align: right;
+	margin-top: 10px;
+
+}
+
+.copy span {
+	font-family: 'Pacifico', sans-serif;
+	color: red;
 }
