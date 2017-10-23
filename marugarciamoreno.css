@@ -448,7 +448,7 @@ body {
 }
 
 .pagabout .fondotexto {
-	height: 100%;
+	height: 70%;
 	width: 500px;
 	color: white;
 	background-color: black;
@@ -467,9 +467,6 @@ body {
 }
 
 .pagabout .footer{
-	position: fixed;
-	right: 0;
-	left: 0;
 	clear: both;
 	margin-top: 20px;
 	margin-bottom: 25px;
