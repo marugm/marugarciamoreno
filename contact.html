@@ -13,35 +13,40 @@
 	<body class="pagcontact">
 			
 			<div class="botonera">
-				<ul>
 					<div class="logo">
-						<li>
-							<a href="index.html">
-								<img src="images/marulogo.png" alt="Inicio">
-							</a>
-						</li>
+						<a href="index.html">
+							<img src="images/marulogo.png" alt="Home">
+						</a>
 					</div> <!-- cierra logo -->
 					<div class="boton">
+						<ul>
 						<li><a href="index.html">Photography</a></li>
 						<li><a href="videos.html">Videos</a></li>
 						<li><a href="#">Web Design</a></li>
 						<li><a href="#">Blog</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="contact.html">Contact</a></li>
+						</ul>
 					</div> <!-- cierra boton -->
-				</ul>
+				
 			</div> <!-- cierra botonera -->
 
 		<h2>Contact</h2>
 		
 		<div class="contact">
-			<form method="get" action="#.php">
-				Name: <input type="text" name="name"><br>
-				Email: <input type="email" name="email"><br>
-				Subject: <input type="text" name="subject"><br>
-				Message: <input type="text" name="message"><br>
-				<input type="submit" name="submit" value="Submit">
-			</form>
+
+			<div class="formulario">
+				<form method="get" action="#.php">
+					Name: <input type="text" name="name" cols="40" required=""><br>
+					Email: <input type="email" name="email" cols="40" required=""><br>
+					Subject: <input type="text" name="subject" cols="40" required=""><br>
+					Message: <textarea name="message" cols="50" rows="10" required=""></textarea><br>
+					<input type="submit" name="submit" value="Submit" class="botonform">
+				</form>
+			</div> <!-- cierra formulario -->
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96715.26618098015!2d-58.48878681185883!3d-34.61826276015934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos+Aires%2C+CABA%2C+Argentina!5e0!3m2!1ses!2sus!4v1508719516840" width="800px" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div> <!-- cierra map -->
 
 		</div> <!-- cierra contact -->
 
