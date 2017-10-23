@@ -114,7 +114,7 @@ body {
 	opacity: 0;
 }
 
-.uno .link {
+.uno a {
 	text-decoration: none;
 	color: white;
 
@@ -200,7 +200,7 @@ body {
 
 .dos .text {
 	position: absolute;
- 	top: 45%;
+ 	top: 40%;
   	width: 100%;
   	text-align: center;
   	display: block;
