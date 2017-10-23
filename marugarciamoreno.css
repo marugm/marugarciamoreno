@@ -430,3 +430,49 @@ body {
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
+/*--------------ABOUT---------------*/
+
+.pagabout .about {
+	clear: both;
+	margin-top: 110px;
+	background-image: url("images/biografia.jpg");
+	background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 20px;
+    height: 950px;
+	/*width: 100%
+	height: 100%;*/
+	/*background-color: cyan;*/
+}
+
+.pagabout .fondotexto {
+	height: 100%;
+	width: 500px;
+	color: white;
+	background-color: black;
+	opacity: 0.3;
+	padding: 15px;
+	text-align: justify;
+	display: block;
+	position: fixed;
+
+}
+
+.pagabout h2 {
+	margin-top: 10px;
+	font-family: 'Abril Fatface', sans-serif;
+	font-size: 35px;
+}
+
+.pagabout .footer{
+	position: fixed;
+	right: 0;
+	left: 0;
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
