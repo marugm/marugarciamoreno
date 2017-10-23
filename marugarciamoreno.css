@@ -35,6 +35,7 @@ body {
 	float: left;
 	padding-left: 25px;
 	width: 20%;
+	border-right: 1px solid lightgrey;
 }
 
 .boton {float: left;
@@ -60,7 +61,7 @@ body {
 	margin: 20px 10px;
 	padding: 5px 15px;
 
-	color: red;
+	color: grey;
 
 	/*background-color: salmon;*/
 }
