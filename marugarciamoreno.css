@@ -276,6 +276,36 @@ body {
 	/*border-bottom: 1px solid #343938;*/
 }
 
+.facebook {
+	float: left;
+	margin-left: 10px;
+}
+
+.facebook img {
+	height: 30px;
+	width: 30px;
+}
+
+.instagram {
+	float: left;
+	margin-left: 10px;
+}
+
+.instagram img {
+	height: 30px;
+	width: 30px;
+}
+
+.pinterest {
+	float: left;
+	margin-left: 10px;
+}
+
+.pinterest img {
+	height: 30px;
+	width: 30px;
+}
+
 .copy {
 	display: block;
 	text-align: right;
