@@ -86,81 +86,80 @@ body {
 	margin-bottom: 25px;
 	overflow: auto;
 	margin-top: 110px;
-	height: 550px;
+	height: 585px;
 }
 
 .uno img{
 	float: left;
 	width: 68%;
-	height: 100%;
+	height: 585px;
 	margin-right: 25px;
 
-	bottom: 0;
 	opacity: 1;
 
 	position: relative; /* relativo para que controle al hijo absoluto*/
 	overflow: hidden;
 }
 
-.uno .hijo {
-	/*display: none;*/
-
+.uno .caja {
 	background-color: black;
-	height: 550px;
-	width: 68%;
+	height: 585px;
+	width: 66.1%;
 	margin-right: 25px;
-	text-align: center;
-
+	
 	position: absolute;
 	
 	transition: ease 0.6s;
 	opacity: 0;
-
-	/*background-color: blue;*/
 }
 
-.hijo a{
+.link {
 	text-decoration: none;
 	color: white;
-	text-align: center;
 
-	 /*COMO CARAJO CENTRO VERTICALMENTE DOS LINEAS DE TEXTO
-	 Y HAGO TODA LA ZONA CLICKEABLE*/
-
-
-
-	/*display: block;
+	display: block;
 	height: 585px;
-	width: 65.8%;*/
+	width: 70%;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 22px;
-	background-color: pink;
+	/*background-color: pink;*/
 }
 
-/*.hijo p{
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 22px;
-	border-bottom: 1px solid white;
-	background-color: pink;
-}*/
+ /*COMO CARAJO CENTRO VERTICALMENTE DOS LINEAS DE TEXTO
+	 Y HAGO TODA LA ZONA CLICKEABLE*/
 
-.hijo span {
+.text {
+	position: absolute;
+ 	top: 45%;
+  	width: 100%;
+  	text-align: center;
+  	display: block;
+  	box-sizing: border-box;
+}
+
+.caja p {
+	color: white;
+	margin: auto;
+	z-index: 2;
+	text-align: center;
+}
+
+.caja span {
 	/*line-height: 10px;*/
 	font-family: 'Lobster', sans-serif;
 	font-size: 44px;
-	/*text-decoration: none;*/
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
-.uno:hover .hijo{
-	opacity: 0.7;
+.uno:hover .caja{
+	opacity: 0.5;
 }
 
 .dos img{
 	float: right;
 	width: 30%;
 	height: 50%;
-	margin-bottom: 58px;
+	margin-bottom: 25px;
 }
 
 .tres img{
@@ -283,14 +282,14 @@ body {
 	float: right;
 	/*width: 76%;*/
 	margin-right: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .pagcontact .footer {
 	clear: both;
-	margin-top: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-bottom: 25px;
 }
 
 
