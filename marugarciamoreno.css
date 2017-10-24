@@ -486,3 +486,64 @@ body {
 	width: 100%;
 	height: 90px;
 }
+
+/*=================PROY UNO=================*/
+
+.proyuno {
+	/*overflow: auto;
+	clear: both;*/
+}
+
+.fondotextofotouno {
+	margin-top: 120px;
+	width: 20%;
+	height: 550px;
+	border-right: 1px solid lightgrey;
+
+	float: left;
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.textofotouno {
+	top: 120px;
+	display: block;
+	text-align: justify;
+}
+
+.textofotouno span {
+	font-family: 'Playfair Display SC', sans-serif;
+}
+
+.fotosuno {
+	float: left;
+	margin-top: 110px;
+	width: 6100px;
+	height: 100px;
+}
+
+.fotosuno img {
+	margin-top: 30px;
+	float: left;
+	max-height: 550px;
+	margin: 20px;
+}
+
+.paguno .footer{
+	position: fixed;
+	bottom: -30px;
+	left: -22px;
+	right: 0;
+	clear: both;
+
+	padding-top: 20px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	z-index: 1;
+	background-color: white;
+
+	width: 100%;
+	height: 90px;
+}
