@@ -85,23 +85,33 @@ body {
 .parte1 {
 	/*background-color: purple;*/
 	margin-bottom: 25px;
-	overflow: auto;
+	/*overflow: auto;*/
 	margin-top: 110px;
 	height: 585px;
 }
 
-.uno img{
+.uno{
+	background-image: url(images/makhabucha/img3033.jpg);
+	background-size: cover;
+	height: 585px;
+	width: 68%;
+	float: left;
+	margin-right: 25px;
+}
+
+/*.uno img{
 	float: left;
 	width: 68%;
 	height: 585px;
+	object-fit: cover;
 	margin-right: 25px;
 
 	opacity: 1;
 
-	position: relative; /* relativo para que controle al hijo absoluto*/
+	position: relative; /* relativo para que controle al hijo absoluto
 	overflow: hidden;
 }
-
+*/
 .uno .caja {
 	transition: ease 0.6s;
 	opacity: 0;
@@ -120,7 +130,7 @@ body {
 .uno .text {
 	position: absolute;
  	top: 45%;
-  	width: 70%;
+  	width: 67%;
   	text-align: center;
   	display: block;
   	box-sizing: border-box;
@@ -155,7 +165,7 @@ body {
 
 /*======DOS======*/
 
-.dos img{
+/*.dos img{
 	float: right;
 	width: 30%;
 	height: 50%;
@@ -165,15 +175,24 @@ body {
 
 	position: relative;
 	overflow: hidden;
+}*/
+
+.dos {
+	background-image: url(images/angkor/img7327.jpg);
+	background-size: cover;
+	height: 48%;
+	width: 30%;
+	float: left;
+	margin-bottom: 25px;
 }
 
 .dos .caja {
 	background-color: black;
-	height: 36.1%;
-	width: 29.2%;
+	height: 37%;
+	width: 29.3%;
 
 	position: absolute;
-	left: 69.4%;
+	left: 69.1%;
 	
 	transition: ease 0.6s;
 	opacity: 0;
@@ -184,8 +203,8 @@ body {
 	color: white;
 
 	display: block;
-	height: 36.1%;
-	width: 29.2%;
+	height: 100%;
+	width: 100%;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 22px;
 	/*background-color: pink;*/
@@ -193,25 +212,84 @@ body {
 
 .dos .text {
 	position: absolute;
- 	top: 40%;
-  	width: 100%;
+ 	top: 29%;
+ 	width: 30%;
+  
   	text-align: center;
   	display: block;
   	box-sizing: border-box;
-}
+  	color: white;
 
+  	transition: ease 0.7s;
+  	opacity: 0;
+}
 
 .dos:hover .caja{
 	opacity: 0.5;
 }
 
+.dos:hover .text{
+	opacity: 1;
+}
+
 /*============TRES===========*/
 
-.tres img{
-	float: right;
+.tres {
+	background-image: url(images/natura/img4817.jpg);
+	background-size: cover;
+	height: 48%;
 	width: 30%;
-	height: 50%;
+	float: left;
 }
+
+.tres .caja {
+	background-color: black;
+	height: 37%;
+	width: 29.3%;
+
+	position: absolute;
+	left: 69.1%;
+	top: 54.7%;
+	
+	transition: ease 0.6s;
+	opacity: 0;
+}
+
+.tres .link {
+	text-decoration: none;
+	color: white;
+
+	display: block;
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
+	/*background-color: pink;*/
+}
+
+.tres .text {
+	position: absolute;
+ 	top: 67%;
+ 	width: 30%;
+  
+  	text-align: center;
+  	display: block;
+  	box-sizing: border-box;
+  	color: white;
+
+  	transition: ease 0.7s;
+  	opacity: 0;
+}
+
+.tres:hover .caja{
+	opacity: 0.5;
+}
+
+.tres:hover .text{
+	opacity: 1;
+}
+
+/*================= PARTE 2 ===================*/
 
 .parte2 {
 	clear: both;
@@ -519,7 +597,7 @@ body {
 .fotosuno {
 	float: left;
 	margin-top: 110px;
-	width: 6100px;
+	width: 100%;
 	height: 100px;
 }
 
