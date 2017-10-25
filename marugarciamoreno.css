@@ -410,7 +410,6 @@ body {
 
 .formulario {
 	float: left;
-	margin-top: 20px;
 	width: 100%;
 	/*margin-left: 40%;*/
 	position: relative;
@@ -425,6 +424,7 @@ body {
 	right: 45px;
 	z-index: 1;
 	margin: 10px;
+	color: white;
 }
 
 .contact input {
@@ -434,7 +434,8 @@ body {
 .botonform {
 	padding: 5px;
 	margin-top: 15px;
-	background-color:#cccccc;
+	background-color:#66ccb8;
+	color: white;
 	font-size: 16px;
 	font-family: 'Abril Fatface', sans-serif;
 }
@@ -447,6 +448,7 @@ body {
 	width: 100vw;
 	height: 60vh;
 	position: relative;
+	background-color: skyblue;
 }
 
 .map iframe{
