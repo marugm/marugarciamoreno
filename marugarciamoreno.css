@@ -298,12 +298,70 @@ body {
 	/*background-color: yellow;*/
 }
 
-.cuatro img{
+.cuatro {
+	background-image: url(images/thailand/img2793.jpg);
+	background-size: cover;
+	height: 48%;
+	width: 30%;
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 25px;
+}
+
+.cuatro .caja {
+	transition: ease 0.6s;
+	opacity: 0;
+}
+
+.cuatro .caja a {
+	background-color: black;
+	height: 37%;
+	width: 29.3%;
+
+	position: absolute;
+	left: 10%;
+}
+
+.cuatro .link {
+	text-decoration: none;
+	color: white;
+
+	display: block;
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
+	/*background-color: pink;*/
+}
+
+.cuatro .text {
+	position: absolute;
+ 	top: 70%;
+ 	width: 30%;
+  
+  	text-align: center;
+  	display: block;
+  	box-sizing: border-box;
+  	color: white;
+
+  	transition: ease 0.7s;
+  	opacity: 0;
+}
+
+.cuatro:hover .caja{
+	opacity: 0.5;
+}
+
+.cuatro:hover .text{
+	opacity: 1;
+}
+
+/* .cuatro img{
 	float: left;
 	width: 30%;
 	height: 50%;
 	padding-bottom: 25px;
-}
+} */
 
 .cinco img{
 	float: right;
