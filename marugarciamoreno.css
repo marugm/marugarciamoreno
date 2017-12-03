@@ -85,7 +85,6 @@ body {
 .parte1 {
 	/*background-color: purple;*/
 	margin-bottom: 25px;
-	/*overflow: auto;*/
 	margin-top: 110px;
 	height: 585px;
 }
@@ -99,19 +98,6 @@ body {
 	margin-right: 25px;
 }
 
-/*.uno img{
-	float: left;
-	width: 68%;
-	height: 585px;
-	object-fit: cover;
-	margin-right: 25px;
-
-	opacity: 1;
-
-	position: relative; /* relativo para que controle al hijo absoluto
-	overflow: hidden;
-}
-*/
 .uno .caja {
 	transition: ease 0.6s;
 	opacity: 0;
@@ -129,8 +115,8 @@ body {
 
 .uno .text {
 	position: absolute;
- 	top: 45%;
-  	width: 67%;
+ 	top: 44%;
+  	width: 103%;
   	text-align: center;
   	display: block;
   	box-sizing: border-box;
@@ -155,7 +141,7 @@ body {
 }
 
 .uno:hover .caja{
-	opacity: 0.5;
+	opacity: 0.6;
 }
 
 .uno:hover .text{
@@ -165,17 +151,6 @@ body {
 
 /*======DOS======*/
 
-/*.dos img{
-	float: right;
-	width: 30%;
-	height: 50%;
-	margin-bottom: 25px;
-
-	opacity: 1;
-
-	position: relative;
-	overflow: hidden;
-}*/
 
 .dos {
 	background-image: url(images/angkor/img7327.jpg);
@@ -184,36 +159,25 @@ body {
 	width: 30%;
 	float: left;
 	margin-bottom: 25px;
+	position: relative;
 }
 
 .dos .caja {
-	background-color: black;
-	height: 37%;
-	width: 29.3%;
-
-	position: absolute;
-	left: 69.1%;
-	
 	transition: ease 0.6s;
 	opacity: 0;
 }
 
-.dos .link {
-	text-decoration: none;
-	color: white;
-
-	display: block;
+.dos .caja a {
+	background-color: black;
 	height: 100%;
 	width: 100%;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 22px;
-	/*background-color: pink;*/
+	position: absolute;
 }
 
 .dos .text {
 	position: absolute;
- 	top: 29%;
- 	width: 30%;
+ 	top: 30%;
+ 	width: 97%;
   
   	text-align: center;
   	display: block;
@@ -225,7 +189,7 @@ body {
 }
 
 .dos:hover .caja{
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 .dos:hover .text{
@@ -240,37 +204,25 @@ body {
 	height: 48%;
 	width: 30%;
 	float: left;
+	position: relative;
 }
 
 .tres .caja {
-	background-color: black;
-	height: 37%;
-	width: 29.3%;
-
-	position: absolute;
-	left: 69.1%;
-	top: 54.7%;
-	
 	transition: ease 0.6s;
 	opacity: 0;
 }
 
-.tres .link {
-	text-decoration: none;
-	color: white;
-
-	display: block;
+.tres .caja a {
+	background-color: black;
 	height: 100%;
 	width: 100%;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 22px;
-	/*background-color: pink;*/
+	position: absolute;
 }
 
 .tres .text {
 	position: absolute;
- 	top: 67%;
- 	width: 30%;
+ 	top: 30%;
+ 	width: 97%;
   
   	text-align: center;
   	display: block;
@@ -282,7 +234,7 @@ body {
 }
 
 .tres:hover .caja{
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 .tres:hover .text{
@@ -295,7 +247,7 @@ body {
 	clear: both;
 	overflow: auto;
 	margin-bottom: 25px;
-	/*background-color: yellow;*/
+	height: 585px;
 }
 
 .cuatro {
@@ -304,8 +256,7 @@ body {
 	height: 48%;
 	width: 30%;
 	float: left;
-	margin-bottom: 25px;
-	margin-right: 25px;
+	position: relative;
 }
 
 .cuatro .caja {
@@ -315,29 +266,15 @@ body {
 
 .cuatro .caja a {
 	background-color: black;
-	height: 37%;
-	width: 29.3%;
-
-	position: absolute;
-	left: 10%;
-}
-
-.cuatro .link {
-	text-decoration: none;
-	color: white;
-
-	display: block;
 	height: 100%;
 	width: 100%;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 22px;
-	/*background-color: pink;*/
+	position: absolute;
 }
 
 .cuatro .text {
 	position: absolute;
- 	top: 70%;
- 	width: 30%;
+ 	top: 30%;
+ 	width: 97%;
   
   	text-align: center;
   	display: block;
@@ -349,7 +286,7 @@ body {
 }
 
 .cuatro:hover .caja{
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 .cuatro:hover .text{
@@ -371,9 +308,10 @@ body {
 }
 
 .seis img{
-	float: right;
+	float: left;
 	width: 30%;
 	height: 50%;
+	padding-top: 24px;
 }
 
 .parte3 {
@@ -451,7 +389,7 @@ body {
 }
 
 
-/*--------------Contacto------------*/
+/*-------------- CONTACTO --------------*/
 
 .pagcontact {
 	/*background-color: salmon;*/
@@ -649,7 +587,7 @@ body {
 }
 
 .fondotextofotouno {
-	margin-top: 120px;
+	margin-top: 20px;
 	width: 20%;
 	height: 550px;
 	border-right: 1px solid lightgrey;
@@ -687,10 +625,10 @@ body {
 	margin: 20px;
 }
 
-.paguno .footer{
+.footerfotos{
 	position: fixed;
-	bottom: -30px;
-	left: -22px;
+	bottom: -24px;
+	left: -5px;
 	right: 0;
 	clear: both;
 
@@ -703,4 +641,149 @@ body {
 
 	width: 100%;
 	height: 90px;
+}
+
+/*=================PROY DOS y los que siguen para texto=================*/
+
+.fondotextofoto {
+	margin-top: 20px;
+	width: 20%;
+	height: 550px;
+	border-right: 1px solid lightgrey;
+
+	float: left;
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.textofoto {
+	top: 120px;
+	display: block;
+	text-align: justify;
+}
+
+.textofoto span {
+	font-family: 'Playfair Display SC', sans-serif;
+}
+
+.fotosdospadre {
+	float: left;
+	width: 50%;
+}
+.fotosdos {
+	margin-top: 110px;
+	width: 10600px;
+	height: 100px;
+}
+
+.fotosdos img {
+	margin-top: 30px;
+	float: left;
+	max-height: 550px;
+	margin: 20px;
+}
+
+
+/*=================PROY TRES=================*/
+
+.fotostrespadre {
+	float: left;
+	width: 50%;
+}
+.fotostres {
+	margin-top: 110px;
+	width: 12500px;
+	height: 100px;
+}
+
+.fotostres img {
+	margin-top: 30px;
+	float: left;
+	max-height: 550px;
+	margin: 20px;
+}
+
+
+/*=================PROY CUATRO=================*/
+
+.fotoscuatropadre {
+	float: left;
+	width: 50%;
+}
+.fotoscuatro {
+	margin-top: 110px;
+	width: 7300px;
+	height: 100px;
+}
+
+.fotoscuatro img {
+	margin-top: 30px;
+	float: left;
+	max-height: 550px;
+	margin: 20px;
+}
+
+
+/*=================PROY CINCO=================*/
+
+.fotoscinco {
+	margin-top: 110px;
+	width: 9300px;
+	height: 100px;
+}
+
+.fotoscinco img {
+	margin-top: 30px;
+	float: left;
+	max-height: 550px;
+	margin: 20px;
+}
+
+/*=================PROY SEIS=================*/
+
+
+.fotosseis {
+	margin-top: 110px;
+	width: 6400px;
+	height: 100px;
+}
+
+.fotosseis img {
+	margin-top: 30px;
+	float: left;
+	max-height: 550px;
+	margin: 20px;
+}
+
+/*=================PROY SIETE=================*/
+
+
+.fotossiete {
+	margin-top: 110px;
+	width: 8500px;
+	height: 100px;
+}
+
+.fotossiete img {
+	margin-top: 30px;
+	float: left;
+	max-height: 550px;
+	margin: 20px;
+}
+
+/*=================PROY OCHO=================*/
+
+
+.fotosocho {
+	margin-top: 110px;
+	width: 13700px;
+	height: 100px;
+}
+
+.fotosocho img {
+	margin-top: 30px;
+	float: left;
+	max-height: 550px;
+	margin: 20px;
 }

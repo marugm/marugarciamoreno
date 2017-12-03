@@ -12,9 +12,12 @@ $user = 'root';
 $password = 'root';
 $db = 'marugarciamoreno';
 $host = 'localhost';
-$port = 8888;
+$port = 8888;//generalmente el puerto de mysql es el de 3366
 
-$link = mysqli_init();
+//$link = mysqli_init();
+
+$conexion = mysqli_connect($host,$user,$password,$db);
+/*
 $conexion = mysqli_real_connect(
    $link, 
    $host, 
@@ -23,5 +26,5 @@ $conexion = mysqli_real_connect(
    $db,
    $port
 );
-
+*/
 ?>

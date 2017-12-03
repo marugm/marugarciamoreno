@@ -9,7 +9,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dancing+Script|Lobster|Merriweather|Pacifico|Open+Sans+Condensed:300|Playfair+Display+SC" rel="stylesheet"> 
 	</head>
 
-
 	<body class="pagcontact">
 			
 			<div class="botonera">
@@ -25,7 +24,7 @@
 						<li><a href="#">Web Design</a></li>
 						<li><a href="#">Blog</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="contacthtml.php">Contact</a></li>
 						</ul>
 					</div> <!-- cierra boton -->
 				
@@ -33,6 +32,16 @@
 
 		<h2>Contact</h2>
 		
+		<?php
+		$hayerror = isset($_GET['error']) ? $_GET['error'] : null;
+		
+		if($hayerror == 'yes') {
+			echo '<script type="text/javascript">alert("Papu todo mal");</script>';
+		} else if($hayerror == 'no') {
+			echo '<h5>Te mandamos mail</h5>';
+		}
+		?>
+
 		<div class="contact">
 
 			<div class="formulario">
