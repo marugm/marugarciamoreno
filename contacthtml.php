@@ -21,8 +21,6 @@
 						<ul>
 						<li><a href="index.html">Photography</a></li>
 						<li><a href="videos.html">Videos</a></li>
-						<li><a href="#">Web Design</a></li>
-						<li><a href="#">Blog</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="contacthtml.php">Contact</a></li>
 						</ul>

@@ -8,10 +8,8 @@
 
 body {
 	font-family: 'Merriweather', sans-serif;
-	/*background-color: #fff;*/
-	margin-left: 20px;
-	margin-right: 20px;
-	margin: auto;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 /*-------------- CABECERA --------------*/
@@ -79,11 +77,9 @@ body {
 .proyectos {
 	margin: 20px 20px;
 	clear: both;
-	/*background-color: blue;*/
 }
 
 .parte1 {
-	/*background-color: purple;*/
 	margin-bottom: 25px;
 	margin-top: 110px;
 	height: 585px;
@@ -96,6 +92,7 @@ body {
 	width: 68%;
 	float: left;
 	margin-right: 25px;
+	position: relative;
 }
 
 .uno .caja {
@@ -105,11 +102,8 @@ body {
 
 .uno .caja a {
 	background-color: black;
-	height: 585px;
-	width: 66.1%;
-	margin-right: 25px;
-
-	display: block;
+	height: 100%;
+	width: 100%;
 	position: absolute;
 }
 
@@ -148,9 +142,7 @@ body {
 	opacity: 1;
 }
 
-
 /*======DOS======*/
-
 
 .dos {
 	background-image: url(images/angkor/img7327.jpg);
@@ -245,10 +237,10 @@ body {
 
 .parte2 {
 	clear: both;
-	overflow: auto;
 	margin-bottom: 25px;
 	height: 585px;
 }
+
 
 .cuatro {
 	background-image: url(images/thailand/img2793.jpg);
@@ -293,45 +285,194 @@ body {
 	opacity: 1;
 }
 
-/* .cuatro img{
-	float: left;
-	width: 30%;
-	height: 50%;
-	padding-bottom: 25px;
-} */
+/* ------------CINCO------------*/
 
-.cinco img{
-	float: right;
-	width: 70%;
+.cinco {
+	background-image: url(images/vietnam/img5468.jpg);
+	background-size: cover;
 	height: 585px;
-	padding-left: 25px;
+	width: 68%;
+	float: right;
+	position: relative;
 }
 
-.seis img{
-	float: left;
-	width: 30%;
-	height: 50%;
-	padding-top: 24px;
+.cinco .caja {
+	transition: ease 0.6s;
+	opacity: 0;
 }
+
+.cinco .caja a {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.cinco .text {
+	position: absolute;
+ 	top: 44%;
+  	width: 103%;
+  	text-align: center;
+  	display: block;
+  	box-sizing: border-box;
+  	color: white;
+
+  	transition: ease 0.7s;
+  	opacity: 0;
+}
+
+.cinco:hover .caja{
+	opacity: 0.7;
+}
+
+.cinco:hover .text{
+	opacity: 1;
+}
+
+
+
+/* ------------SEIS------------*/
+
+.seis {
+	background-image: url(images/asunday/img92331.jpg);
+	background-size: cover;
+	height: 48%;
+	width: 30%;
+	float: left;
+	margin-top: 24px;
+	position: relative;
+}
+
+.seis .caja {
+	transition: ease 0.6s;
+	opacity: 0;
+}
+
+.seis .caja a {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.seis .text {
+	position: absolute;
+ 	top: 30%;
+ 	width: 97%;
+  
+  	text-align: center;
+  	display: block;
+  	box-sizing: border-box;
+  	color: white;
+
+  	transition: ease 0.7s;
+  	opacity: 0;
+}
+
+.seis:hover .caja{
+	opacity: 0.7;
+}
+
+.seis:hover .text{
+	opacity: 1;
+}
+
+
+/*================= PARTE 3 ===================*/
 
 .parte3 {
 	clear: both;
-	overflow: auto;
 	margin-bottom: 25px;
-}
-
-.siete img{
-	float: left;
-	width: 70%;
 	height: 585px;
-	padding-right: 25px;
 }
 
-.ocho img{
-	float: right;
+/* ------------ SIETE ------------*/
+
+.siete{
+	background-image: url(images/awomansheart/go1.jpg);
+	background-size: cover;
+	height: 585px;
+	width: 68%;
+	float: left;
+	margin-right: 25px;
+	position: relative;
+}
+
+.siete .caja {
+	transition: ease 0.6s;
+	opacity: 0;
+}
+
+.siete .caja a {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.siete .text {
+	position: absolute;
+ 	top: 44%;
+  	width: 103%;
+  	text-align: center;	
+  	box-sizing: border-box;
+  	color: white;
+
+  	transition: ease 0.7s;
+  	opacity: 0;
+}
+
+.siete:hover .caja{
+	opacity: 0.7;
+}
+
+.siete:hover .text{
+	opacity: 1;
+}
+
+/* ------------ OCHO ------------*/
+
+.ocho {
+	background-image: url(images/malaysia/img0481.jpg);
+	background-size: cover;
+	height: 48%;
 	width: 30%;
-	height: 50%;
-	padding-bottom: 25px;
+	float: right;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.ocho .caja {
+	transition: ease 0.6s;
+	opacity: 0;
+}
+
+.ocho .caja a {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.ocho .text {
+	position: absolute;
+ 	top: 30%;
+ 	width: 100%;
+  
+  	text-align: center;
+  	box-sizing: border-box;
+  	color: white;
+
+  	transition: ease 0.7s;
+  	opacity: 0;
+}
+
+.ocho:hover .caja{
+	opacity: 0.7;
+}
+
+.ocho:hover .text{
+	opacity: 1;
 }
 
 /*------------------- PIE ------------------*/
@@ -745,7 +886,7 @@ body {
 
 .fotosseis {
 	margin-top: 110px;
-	width: 6400px;
+	width: 5500px;
 	height: 100px;
 }
 
