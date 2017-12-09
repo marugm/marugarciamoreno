@@ -8,8 +8,8 @@
 
 body {
 	font-family: 'Merriweather', sans-serif;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 10x;
+	margin-right: 10px;
 }
 
 /*-------------- CABECERA --------------*/
@@ -36,7 +36,8 @@ body {
 	border-right: 1px solid lightgrey;
 }
 
-.boton {float: left;
+.boton {
+	float: left;
 	list-style-type: none;
 	width: 80%;
 	
@@ -60,8 +61,6 @@ body {
 	padding: 5px 15px;
 
 	color: grey;
-
-	/*background-color: salmon;*/
 }
 
 .botonera .boton a:hover {
@@ -722,11 +721,6 @@ body {
 
 /*=================PROY UNO=================*/
 
-.proyuno {
-	/*overflow: auto;
-	clear: both;*/
-}
-
 .fondotextofotouno {
 	margin-top: 20px;
 	width: 20%;
@@ -914,7 +908,6 @@ body {
 }
 
 /*=================PROY OCHO=================*/
-
 
 .fotosocho {
 	margin-top: 110px;

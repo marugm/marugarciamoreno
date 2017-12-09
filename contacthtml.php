@@ -34,9 +34,9 @@
 		$hayerror = isset($_GET['error']) ? $_GET['error'] : null;
 		
 		if($hayerror == 'yes') {
-			echo '<script type="text/javascript">alert("Papu todo mal");</script>';
+			echo '<script type="text/javascript">alert("Sorry! Your message couldnt be sent.");</script>';
 		} else if($hayerror == 'no') {
-			echo '<h5>Te mandamos mail</h5>';
+			echo '<h5>Your message was sent.</h5>';
 		}
 		?>
 
