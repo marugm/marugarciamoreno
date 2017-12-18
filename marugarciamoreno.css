@@ -8,8 +8,7 @@
 
 body {
 	font-family: 'Merriweather', sans-serif;
-	margin-left: 10x;
-	margin-right: 10px;
+	
 }
 
 /*-------------- CABECERA --------------*/
@@ -544,25 +543,34 @@ body {
 	overflow: auto;
 }
 
-.contactmessage {
-	transition-timing-function: ease;
-	transition: 0.2s;
-}
-
 .mes1 {
-	color: #ff0017;
+	background-color: #ff0017;
 	font-size: 18px;
 	text-align: center;
 	display: block;
 	margin-bottom: 10px;
+	color: white;
+	padding: 5px 0px;
+	border: 1px solid transparent;
+	border-radius: 7px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .mes2{
-	color: #66ccb8;
+	background-color: #66ccb8;
 	font-size: 18px;
 	text-align: center;
 	display: block;
 	margin-bottom: 10px;
+	color: white;
+	padding: 5px 0px;
+	border: 1px solid transparent;
+	border-radius: 7px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .formulario {

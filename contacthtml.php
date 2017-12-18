@@ -30,17 +30,20 @@
 
 		<h2>Contact</h2>
 		
-			<div class="contactmessage">
+			
 			<?php
 				$hayerror = isset($_GET['error']) ? $_GET['error'] : null;
 			
 				if($hayerror == 'yes') {
-				echo "<span class='mes1'>" . 'Sorry! Your message couldnt be sent.' . "</span>";
+				echo "<span class='mes1' id='notificacion'>" . 'Sorry! Your message couldnt be sent.' . "</span>";
 				} else if($hayerror == 'no') {
-				echo "<span class='mes2'>" . 'Your message was sent.' . "</span>";
+				echo "<span class='mes2' id='notificacion'>" . 'Your message was sent.' . "</span>";
 				}
 			?>
-			</div>
+			
+			<script type="text/javascript">
+				setTimeout(function(){ document.getElementById('notificacion').style.display='none' }, 5000);
+			</script>
 
 		<div class="contact">
 
