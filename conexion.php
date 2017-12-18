@@ -8,8 +8,8 @@ echo "$conexion"; */
 echo mysqli_connect("localhost", "root", "root", "marugarciamoreno"); */
 
 
-$user = 'root';
-$password = 'root';
+$user = 'mariana';
+$password = '1234mariana';
 $db = 'marugarciamoreno';
 $host = 'localhost';
 $port = 8888;//generalmente el puerto de mysql es el de 3366

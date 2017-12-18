@@ -30,13 +30,5 @@ if (!mysqli_query($conexion, $consulta))
   	header("location:contacthtml.php?error=no");
   }
 
-/*
-	if ($consulta == TRUE) {
-		echo "tus datos fueron ingresados correctamente";
-		//header("location: contact.html");
-		} 
-		else {
-		echo "no pudimos ingresar tu info";
-	}
-*/
+  mail("garciamorenom@gmail.com",$name,$email, $subject, $message);
 ?>
