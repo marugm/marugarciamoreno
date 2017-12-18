@@ -30,15 +30,17 @@
 
 		<h2>Contact</h2>
 		
-		<?php
-		$hayerror = isset($_GET['error']) ? $_GET['error'] : null;
-		
-		if($hayerror == 'yes') {
-			echo '<script type="text/javascript">alert("Sorry! Your message couldnt be sent.");</script>';
-		} else if($hayerror == 'no') {
-			echo '<h5>Your message was sent.</h5>';
-		}
-		?>
+			<div class="contactmessage">
+			<?php
+				$hayerror = isset($_GET['error']) ? $_GET['error'] : null;
+			
+				if($hayerror == 'yes') {
+				echo "<span class='mes1'>" . 'Sorry! Your message couldnt be sent.' . "</span>";
+				} else if($hayerror == 'no') {
+				echo "<span class='mes2'>" . 'Your message was sent.' . "</span>";
+				}
+			?>
+			</div>
 
 		<div class="contact">
 

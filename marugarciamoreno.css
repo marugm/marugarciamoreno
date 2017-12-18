@@ -544,6 +544,27 @@ body {
 	overflow: auto;
 }
 
+.contactmessage {
+	transition-timing-function: ease;
+	transition: 0.2s;
+}
+
+.mes1 {
+	color: #ff0017;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.mes2{
+	color: #66ccb8;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+}
+
 .formulario {
 	float: left;
 	width: 100%;
@@ -577,14 +598,12 @@ body {
 }
 
 .map {
-	/*float: right;*/
-	/*width: 76%;*/
 	margin-right: 30px;
 	margin-bottom: 65px;
 	width: 100vw;
 	height: 60vh;
 	position: relative;
-	background-color: skyblue;
+	background-color: #a3ccff;
 }
 
 .map iframe{

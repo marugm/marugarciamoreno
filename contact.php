@@ -8,9 +8,8 @@ include('conexion.php');
 	$email = $conexion->real_escape_string($_REQUEST['email']);
 	$subject = $conexion->real_escape_string($_REQUEST['subject']);
 	$message = $conexion->real_escape_string($_REQUEST['message']);
-	
-	$consulta =  
-				"INSERT INTO contact 
+	 
+	$consulta = "INSERT INTO contact 
 				VALUES (
 				'$name', 
 				'$email', 
