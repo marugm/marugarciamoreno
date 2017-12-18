@@ -748,8 +748,10 @@ body {
 
 /*=================PROY UNO=================*/
 
+
+
 .fondotextofotouno {
-	margin-top: 20px;
+	margin-top: 5px;
 	width: 20%;
 	height: 550px;
 	border-right: 1px solid lightgrey;
@@ -773,11 +775,7 @@ body {
 .fotosunopadre {
 	float: left;
 	width: 50%;
-}
-.fotosuno {
-	margin-top: 110px;
-	width: 6400px;
-	height: 100px;
+	height: 100%;
 }
 
 .fotosuno img {
